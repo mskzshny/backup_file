@@ -19,7 +19,7 @@ git clone and move directory where you like.
 エクスプローラを起動し、アドレスバーに`shell:sendto`と入力して、sendtoフォルダーを開きます。
 open windows explorer and input `shell:sendto` in addrress bar.
 
-![クイックアクセスのところにshell:sendtoと入力する](./img/explorer_address_bar.PNG "クイックアクセスのところにshell:sendtoと入力する")
+![](./img/explorer_address_bar.PNG "")
 
 sendtoフォルダにfile_backup.batのショートカットを作成します。　create `file_backup.bat` short cut in sendto filder.
 
