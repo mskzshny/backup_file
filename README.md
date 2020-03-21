@@ -1,4 +1,4 @@
-# このプログラムについて　file_backup
+# このプログラムについて　What is file_backup
 ドラッグ＆ドロップされたファイルをバックアップします。
 バックアップは、ファイルと同じディレクトリのなかにあるoldフォルダーに退避します。
 oldフォルダーがない場合は、自動的に生成します。
@@ -7,7 +7,7 @@ This program creates "old" folder and backup input file with backup datetime
 this is windows batch file.
 
 
-# Install and Setup
+# インストールと設定 Install and Setup
 
 ソースコードをcloneします。フォルダーは、適当な場所においてください。
 git clone and move directory where you like.
@@ -25,7 +25,7 @@ sendtoフォルダにfile_backup.batのショートカットを作成します�
 
 ![](./img/sendto.PNG "")
 
-# How to use
+# 使い方 How to use
 
 1. バックアップしたいファイルを右クリックして、送る＞`file_backup.bat`を選択すると、バックアップを開始します。
     ![](./img/sendto_file_backup.PNG "")
@@ -36,7 +36,7 @@ sendtoフォルダにfile_backup.batのショートカットを作成します�
     
     バックアップを実行した秒までの日時が、ファイル名についています。
 
-# 備考、注意事項
+# 備考、注意事項 mics
 
  - `(`　`)` 半角のかっこのあるファイル名は、コピーできないようです。
  - フォルダーもコピーできますが、念の為コピー後フォルダーとコピー前フォルダーのファイル数が一致しているか確認してください。
