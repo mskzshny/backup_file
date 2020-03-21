@@ -1,9 +1,9 @@
-# file_backup
+# このプログラムについて　file_backup
 ドラッグ＆ドロップされたファイルをバックアップします。
 バックアップは、ファイルと同じディレクトリのなかにあるoldフォルダーに退避します。
 oldフォルダーがない場合は、自動的に生成します。
 
-create "old" folder and backup input file with backup datetime 
+This program creates "old" folder and backup input file with backup datetime 
 this is windows batch file.
 
 
