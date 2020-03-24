@@ -21,7 +21,7 @@ open windows explorer and input `shell:sendto` in addrress bar.
 
 ![](./img/explorer_address_bar.PNG "")
 
-sendtoフォルダにbackup_file.batのショートカットを作成します。　create `backup_file.bat` short cut in sendto filder.
+sendtoフォルダにbackup_file.batのショートカットを作成します。例では、`00_backup_file.bat`として作成しています。　create `backup_file.bat` short cut in sendto filder.
 
 ![](./img/sendto.PNG "")
 
