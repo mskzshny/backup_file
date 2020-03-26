@@ -5,7 +5,6 @@ setlocal ENABLEDELAYEDEXPANSION
 set time_tmp=%time: =0%
 set now=%date:/=%%time_tmp:~0,2%%time_tmp:~3,2%%time_tmp:~6,2%
 
-
 set x=%*
 
 set copy=0
@@ -36,8 +35,6 @@ Rem        echo "%%f はディレクトリです."
     ) 
     if !minus! EQU !eval_d! (
 Rem        echo "%%f はファイルです."
-        set "SRC=%%f"
-        set "BK=%%~dpf\old\%%~nf.%now%%%~xf"
         set
         echo F | xcopy %%f "%%~dpf\old\%%~nf.%now%%%~xf"
     )
